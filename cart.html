@@ -1,0 +1,283 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="piuStyle.css">
+    <script src="https://kit.fontawesome.com/99f1e9d380.js" crossorigin="anonymous"></script>
+  <style>
+    
+/* Cart page */
+
+#page-header.cart-header {
+    background-image: url("https://wallpaperaccess.com/full/2593105.jpg");
+}
+
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img{
+    width: 70px;
+}
+
+#cart table td:nth-child(1), 
+#cart table td:nth-child(2), 
+#cart table td:nth-child(3), 
+#cart table td:nth-child(4), 
+#cart table td:nth-child(5) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(6){
+    width: 50px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4) input{
+    width: 70px;
+    padding: 10px 5px 10px 10px;
+}
+
+#cart table thead{
+    border: 1px solid #e2e2e2;
+    border-left: none;
+    border-right: none;
+}
+
+#cart table td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+#cart table tbody tr td{
+    padding-top: 15px;
+}
+#cart table tbody td{
+    font-size: 13px;
+}
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3,
+#subtotal h3{
+    padding-bottom: 15px;
+}
+
+#coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+#coupon button,
+#subtotal button{
+    background-color: #088178;
+    border-color: #088178;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 3px;
+}
+
+#coupon button:hover,
+#subtotal button:hover{
+    cursor: pointer;
+    background-color: #28b0ff;
+    border-color: #28b0ff;
+}
+
+#subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+    
+}
+  </style>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img id="logo" src="canva/piuL.png" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li> <a href="pickItUp.html">Home</a></li>
+                <li> <a href="shop.html">Shop</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+                <li> <a class = "active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="page-header" class = "cart-header">
+        <!-- <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE, We love to hear from you!</p> -->
+    </section>   
+    
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+               <tr>
+                 <td>Image</td>
+                 <td>Product</td>
+                 <td>Price</td>
+                 <td>Quantity</td>
+                 <td>SubTotal</td>
+                 <td>Remove</td>
+               </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="canva/f2.jpg" alt="imagge not found"></td>
+                    <td>Classy skirt top</td>
+                    <td>700 Rupees</td>
+                    <td><input type="number" value="1"></td>
+                    <td>700</td>
+                    <td> <a href="#"> <i class="far fa-times-circle"></i></a></td>
+                </tr>
+                <tr>
+                    <td><img src="canva/f2.jpg" alt="imagge not found"></td>
+                    <td>Classy skirt top</td>
+                    <td>700 Rupees</td>
+                    <td><input type="number" value="1"></td>
+                    <td>700</td>
+                    <td> <a href="#"> <i class="far fa-times-circle"></i></a></td>
+                </tr>
+                <tr>
+                    <td><img src="canva/f2.jpg" alt="imagge not found"></td>
+                    <td>Classy skirt top</td>
+                    <td>700 Rupees</td>
+                    <td><input type="number" value="1"></td>
+                    <td>700</td>
+                    <td> <a href="#"> <i class="far fa-times-circle"></i></a></td>
+                </tr>
+                <tr>
+                    <td><img src="canva/f2.jpg" alt="imagge not found"></td>
+                    <td>Classy skirt top</td>
+                    <td>700 Rupees</td>
+                    <td><input type="number" value="1"></td>
+                    <td>700</td>
+                    <td> <a href="#"> <i class="far fa-times-circle"></i></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div style="padding: 10px 0;">
+                <input type="text" placeholder="Enter Your Coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>3000 Rupees</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>3000 Rupees</strong></td>
+                </tr>
+            </table>
+            <button>Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="footer-logo" src="canva/logofooter2.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Raj Labdhi Heritage, Koba Circle Behind Nidhi Petrol Pump</p>
+            <p><strong>Phone:</strong> +917892382737 / +916231283814</p>
+            <p><strong>Hours:</strong> 9:00 - 22:00, Mon - Sat</p>
+
+            <div class="follow">
+                <h4>follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign Up</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <!-- images remaining -->
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store Or Google Play</p>
+            <div class="row">
+                <img src="canva/apple1.jpg" alt="">
+                <img class="gp1" src="canva/gp1.png" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img class="payment" src="canva/payment_method_cards.png" alt="image is not found">
+        </div>
+
+        <div class="copyright">
+            <p>© 2023, DBMS 268 Group 2 - PickItUp Website Made by smart people</p>
+        </div>
+
+    </footer>
+
+    <script src="piuScript.js"></script>
+</body>
+</html>
