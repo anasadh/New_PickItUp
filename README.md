@@ -1,1 +1,2 @@
 # New_PickItUp
+Pick It Up is an E-commerce website designed and developed by utilizing HTML, CSS, and JavaScript. It provides users with a seamless online shopping experience, allowing them to browse through a wide range of products and make purchases conveniently. The website incorporates intuitive design elements and interactive features to enhance user engagement. With its user-friendly interface and secure payment gateway, Pick It Up aims to provide a hassle-free and enjoyable shopping platform.
