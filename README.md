@@ -1,5 +1,6 @@
 # PickItUp E-commerce Website
-<!-- ![PickItUp Logo]() -->
+![PickItUp Logo](canva/piuL.png)
+
 
 Welcome to PickItUp, a modern and user-friendly e-commerce website that allows customers to explore a wide range of products and make purchases with ease. This README file will guide you through the key features, installation process, and usage of our website.
 
@@ -17,6 +18,9 @@ Welcome to PickItUp, a modern and user-friendly e-commerce website that allows c
 **Reviews and Ratings:** Read and leave reviews for products to help other customers make informed decisions.
 
 **Responsive Design:** Enjoy a seamless experience across devices with our responsive website layout.
+
+# Screen Shorts
+
 # Installation
 To run PickItUp on your local machine, follow these steps:
 
