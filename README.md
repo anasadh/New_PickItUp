@@ -20,6 +20,19 @@ Welcome to PickItUp, a modern and user-friendly e-commerce website that allows c
 **Responsive Design:** Enjoy a seamless experience across devices with our responsive website layout.
 
 # Screen Shorts
+![Screenshot 1](Screen%20Shorts/s1.png)
+![Screenshot 1](Screen%20Shorts/s2.png)
+![Screenshot 1](Screen%20Shorts/s3.png)
+![Screenshot 1](Screen%20Shorts/s4.png)
+![Screenshot 1](Screen%20Shorts/s5.png)
+![Screenshot 1](Screen%20Shorts/s6.png)
+![Screenshot 1](Screen%20Shorts/s7.png)
+![Screenshot 1](Screen%20Shorts/s8.png)
+![Screenshot 1](Screen%20Shorts/s9.png)
+![Screenshot 1](Screen%20Shorts/s10.png)
+![Screenshot 1](Screen%20Shorts/s11.png)
+![Screenshot 1](Screen%20Shorts/s12.png)
+
 
 # Installation
 To run PickItUp on your local machine, follow these steps:
