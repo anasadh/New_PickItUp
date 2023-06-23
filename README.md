@@ -1,8 +1,10 @@
 # PickItUp E-commerce Website
 ![PickItUp Logo](canva/piuL.png)
 
-
 Welcome to PickItUp, a modern and user-friendly e-commerce website that allows customers to explore a wide range of products and make purchases with ease. This README file will guide you through the key features, installation process, and usage of our website.
+
+# URL :
+https://anasadh.github.io/New_PickItUp/
 
 # Features
 **Product Catalog:** Browse and search for various products conveniently categorized into different sections.
